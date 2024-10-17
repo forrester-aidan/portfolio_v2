@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
-import Projects from './components/Projects';
+import Projects from './components/projects/Projects';
 
 function App() {
   return (
