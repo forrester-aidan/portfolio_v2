@@ -1,7 +1,8 @@
 import React from 'react'
 import NavBar from '../nav/NavBar'
 import { Typography } from '@mui/material'
-import VerticalProjectTimeline from './VerticalProjectTimeline'
+import VerticalProjectTimeline from './ProjectContainer'
+import ProjectContainer from './ProjectContainer'
 
 const Projects = () => {
   return (
@@ -23,7 +24,7 @@ const Projects = () => {
         Hover over each node to view the project in greater detail.
       </Typography>
 
-      <VerticalProjectTimeline />
+      <ProjectContainer />
     </div>
   )
 }
