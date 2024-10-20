@@ -19,14 +19,22 @@ const NavBar = () => {
     navigate('/')
   }
 
+  const contactClick = () => {
+    navigate('/contact')
+  }
+
+  const linkedInClick = () => {
+    window.open('https://www.linkedin.com/in/aidan-forrester/', '_blank')
+  }
+
   return (
     <div>
       <AppBar position="static" style={{backgroundColor: '#5D737E'}}>
       <Toolbar style={{justifyContent: 'right'}}>
         <Button color="inherit" sx={{marginLeft: 2, marginRight: 2}} onClick={homeClick}>Home</Button>
         <Button color="inherit" sx={{marginLeft: 2, marginRight: 2}} onClick={projectClick}>Projects</Button>
-        <Button color="inherit" sx={{marginLeft: 2, marginRight: 2}}>Contact</Button>
-        <Button color="inherit" sx={{marginLeft: 2, marginRight: 2}}>LinkedIn</Button>
+        <Button color="inherit" sx={{marginLeft: 2, marginRight: 2}} onClick={contactClick}>Contact</Button>
+        <Button color="inherit" sx={{marginLeft: 2, marginRight: 2, background: 'linear-gradient(135deg, #5f615f 5%, #02111B 95%)',}} onClick={linkedInClick}>LinkedIn</Button>
       </Toolbar>
     </AppBar>
     </div>

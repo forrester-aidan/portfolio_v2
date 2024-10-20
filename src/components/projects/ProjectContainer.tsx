@@ -4,6 +4,7 @@ import { Box } from '@mui/material';
 import MazeGameDescription from './MazeGameDescription';
 import SwampSchedulerDescription from './SwampSchedulerDescription';
 import CarRentalDescription from './CarRentalDescription';
+import VpnSystemDescription from './VpnSystemDescription';
 
 const styles = { 
   border: '1px solid white',
@@ -51,7 +52,12 @@ const boxStyles = {
         <Box
               component="img"
               src="maze_game_vid.gif" // Replace with your image path
-              sx={boxStyles} // Responsive styling
+              sx={{
+                border: '1px solid red', 
+                borderRadius: 10,
+                height: 400, 
+                flex: 2
+              }} // Responsive styling
             />
             <Box sx={{flex: 4}}>
               <MazeGameDescription />
@@ -64,7 +70,7 @@ const boxStyles = {
               sx={boxStyles} // Responsive styling
             />
             <Box sx={{flex: 4}}>
-              Hello 2
+              <VpnSystemDescription/>
             </Box>
         </Grid>
       </Grid>

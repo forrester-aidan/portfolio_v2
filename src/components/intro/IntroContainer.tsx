@@ -13,7 +13,7 @@ const IntroContainer = () => {
           </Box>
           <Box 
           component="img"
-          src="logo192.png"
+          src="profile.jpg"
           alt="Example"
           sx={{
                flex: 2,

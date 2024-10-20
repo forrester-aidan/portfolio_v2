@@ -21,7 +21,7 @@ const Projects = () => {
       <Typography variant='body1' sx={{
         padding: 1
       }}>
-        Hover over each node to view the project in greater detail.
+        Hover over each node to view the languages used in each project.
       </Typography>
 
       <ProjectContainer />
