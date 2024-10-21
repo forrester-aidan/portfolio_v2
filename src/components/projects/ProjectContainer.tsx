@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Grid from '@mui/material/Grid2';
-import { Box } from '@mui/material';
-import MazeGameDescription from './MazeGameDescription';
-import SwampSchedulerDescription from './SwampSchedulerDescription';
-import CarRentalDescription from './CarRentalDescription';
-import VpnSystemDescription from './VpnSystemDescription';
+import { Box, Card, CardContent, CardMedia, Fade, Typography } from '@mui/material';
+import MazeGameDescription from './maze_game/MazeGameDescription';
+import SwampSchedulerDescription from './swamp_scheduler/SwampSchedulerDescription';
+import CarRentalDescription from './car_rental/CarRentalDescription';
+import VpnSystemDescription from './vpn_system/VpnSystemDescription';
+import { TypeFormatFlags } from 'typescript';
+import SwampImageCard from './swamp_scheduler/SwampImageCard';
+import MazeImageCard from './maze_game/MazeImageCard';
+import CarImageCard from './car_rental/CarImageCard';
+import VpnImageCard from './vpn_system/VpnImageCard';
 
 const styles = { 
   border: '1px solid white',
@@ -24,51 +29,25 @@ const boxStyles = {
   return (
       <Grid container spacing={8} columns={1} sx={{margin: 10}}>
         <Grid display="flex" size={1} sx={styles}>
-          <Box
-              component="img"
-              src="swamp_scheduler_vid.gif" // Replace with your image path
-              sx={boxStyles} // Responsive styling
-            />
+            <SwampImageCard/>
             <Box sx={{flex: 4}}>
               <SwampSchedulerDescription />
             </Box>
         </Grid>
         <Grid display="flex" size={1} sx={styles}>
-          <Box
-              component="img"
-              src="car_rental_vid.webp" // Replace with your image path
-              sx={{ 
-                border: '1px solid red',
-                borderRadius: 10,
-                width: '55%',
-                height: '100%',
-              }} // Responsive styling
-            />
-            <Box sx={{flex: 8}}>
+            <CarImageCard/>
+            <Box sx={{flex: 3}}>
               <CarRentalDescription />
             </Box>
         </Grid>
         <Grid display="flex" size={1} sx={styles}>
-        <Box
-              component="img"
-              src="maze_game_vid.gif" // Replace with your image path
-              sx={{
-                border: '1px solid red', 
-                borderRadius: 10,
-                height: 400, 
-                flex: 2
-              }} // Responsive styling
-            />
+            <MazeImageCard/>
             <Box sx={{flex: 4}}>
               <MazeGameDescription />
             </Box>
         </Grid>
         <Grid display="flex" justifyContent="center" alignItems="center" size={1} sx={styles}>
-        <Box
-              component="img"
-              src="vpn_system_vid.gif" // Replace with your image path
-              sx={boxStyles} // Responsive styling
-            />
+            <VpnImageCard/>
             <Box sx={{flex: 4}}>
               <VpnSystemDescription/>
             </Box>

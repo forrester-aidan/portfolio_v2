@@ -21,7 +21,7 @@ const IntroDescription = () => {
                 <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 300}}>
                   Recently, I was accepted into a web development team for the Society for Asian Scientists and Engineers (SASE), 
                   where I was in charge of redesigning and programming a brand new website for the society and its sponsors. 
-                  I'm part of the programming segment of the team, in charge of replicating the design mockups created by others. 
+                  I'm part of the frontend programming segment of the team, in charge of replicating the design mockups created by UX/UI. 
                   As a part of this summer, I began my studies of my AI/ML topics with a Machine Learning Specialization online course. 
                   This course is designed to teach me the core principles of Machine Learning, such as supervised/unsupervised learning, 
                   neural networks, and deep learning. Using libraries/tools such as NumPy, Matplotlib and TensorFlow, 

@@ -14,9 +14,9 @@ const RecruiterText = () => {
         fontFamily: 'Titillium Web',
         fontWeight: 200
       }}>
-      Please accept this portfolio as an expression of my interest in an internship position at your company. 
-      With a track record of initiative and dependability, I have devised strategic attributes which I believe will prove valuable.
-      Please take a look at my attached resume for a shortened look at my skills and experience. 
+      Please accept this portfolio as an expression of my interest in an internship position at your company. This portfolio serves
+      as a means for you to further explore the projects I have created in greater detail, as well as view some of my other achievements
+      not present on my resume. 
       Here's a snapshot of what I have to offer:
       </Typography>
       <Typography variant='body1' sx={{
@@ -27,13 +27,14 @@ const RecruiterText = () => {
         fontFamily: 'Titillium Web',
         fontWeight: 200
       }}>
-
-      Throughout the course of my career, I have perfected my understanding of coding languages and interpersonal abilities. 
-      I am a capable and consistent problem-solver proficient at prioritizing and managing projects. I am progressive-minded and 
-      in tune with new developments in my field. I have proven to be effective and collaborative with strong critical thinking talents. 
-      I enjoy collective brainstorming sessions which allow me to coordinate activities to achieve a common goal. 
-      Please use this portfolio as a means to get to know me better, and weigh the possibilities of me working at your company 
-      in the summer.
+      <strong>Currently, I am a third-year Computer Science student seeking a Software Engineering Internship for the Summer of 2025.</strong> Throughout the course of my career, 
+      I have perfected my understanding of coding languages and used this knowledge to build projects 
+      of my own, as well as participate in group settings to complete large-scale projects together. I am a capable and consistent problem-solver,
+      always persisting on a job or task until it is perfectly finished. 
+      Programming is one of the activities I can confidently say that I would be willing to do for 12 hours straight and 
+      not get bored. I have proven to be an effective and collaborative team member among the group projects I have completed, constantly
+      striving to make improvements to the work I get my hands on. Please use this portfolio as a means to get to know me better, and weigh 
+      the possibilities of me working at your company in the summer.
 
       <Typography variant='body1' sx={{
         marginLeft: 10, 
