@@ -5,7 +5,8 @@ const VpnSystemDescription = () => {
   return (
       <Box>
          <Box sx={{marginLeft: 3, alignItems: 'top'}}>
-            <Typography variant='h3' sx={{textAlign: 'left', alignItems: 'top'}}>
+            <Typography variant='h3' sx={{textAlign: 'left', alignItems: 'top', fontFamily: 'League Spartan',
+        fontWeight: 500}}>
                VPN System
             </Typography>
          </Box>

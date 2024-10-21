@@ -7,6 +7,8 @@ const RecruiterTitle = () => {
       <Typography variant='h3' sx={{
          textAlign: 'center',
          paddingTop: 5, 
+         fontFamily: 'League Spartan',
+         fontWeight: 700
       }}>
          Dear Recruiter...
       </Typography>

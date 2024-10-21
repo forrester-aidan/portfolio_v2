@@ -1,5 +1,5 @@
 import React from 'react'
-import { List, ListItem, ListItemText } from '@mui/material'
+import { List, ListItem, ListItemText, Typography } from '@mui/material'
 import IntroDescription from './IntroDescription'
 
 const IntroList = () => {
@@ -7,28 +7,38 @@ const IntroList = () => {
     <div>
       <List>
          <ListItem sx={{padding: '4px 0'}}>
-               <ListItemText sx={{fontSize: 30}}>
-                  NAME: Aidan Forrester
+               <ListItemText>
+                  <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 700}}>
+                     NAME: Aidan Forrester
+                  </Typography>
                </ListItemText>
          </ListItem>
          <ListItem sx={{padding: '4px 0'}}>
                <ListItemText>
-                  YEAR: Junior
+                  <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 700}}>
+                     YEAR: Junior
+                  </Typography>
                </ListItemText>
          </ListItem>
          <ListItem sx={{padding: '4px 0'}}>
                <ListItemText>
-                  SCHOOL: University of Florida
+                  <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 700}}>
+                     SCHOOL: University of Florida
+                  </Typography>
                </ListItemText>
          </ListItem>
          <ListItem sx={{padding: '4px 0'}}>
                <ListItemText>
-                  GPA: 3.37
+                  <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 700}}>
+                     GPA: 3.37
+                  </Typography>
                </ListItemText>
          </ListItem>
          <ListItem sx={{padding: '4px 0'}}>
                <ListItemText>
-                  BEST LANGUAGES: Python, C++, Java, TypeScript
+                  <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 700}}>
+                     BEST LANGUAGES: Python, C++, Java, JavaScript/TypeScript
+                  </Typography>
                </ListItemText>
          </ListItem>
          <IntroDescription/>

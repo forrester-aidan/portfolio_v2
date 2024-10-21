@@ -1,4 +1,4 @@
-import { List, ListItem, ListItemText } from '@mui/material'
+import { List, ListItem, ListItemText, Typography } from '@mui/material'
 import React from 'react'
 
 const ContactListRight = () => {
@@ -6,22 +6,30 @@ const ContactListRight = () => {
     <List>
       <ListItem>
          <ListItemText>
-            forresteraidan13@gmail.com, forrester.aidan@ufl.edu
+            <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 600}}>
+               forresteraidan13@gmail.com, forrester.aidan@ufl.edu
+            </Typography> 
          </ListItemText>
       </ListItem>
       <ListItem>
          <ListItemText>
-            (908) 458-3226
+            <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 600}}>
+               (908) 458-3226
+            </Typography>
          </ListItemText>
       </ListItem>
       <ListItem>
          <ListItemText>
-            https://www.linkedin.com/in/aidan-forrester/
+            <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 600}}>
+               https://www.linkedin.com/in/aidan-forrester/
+            </Typography>
          </ListItemText>
       </ListItem>
       <ListItem>
          <ListItemText>
-            https://github.com/forrester-aidan
+            <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 600}}>
+               https://github.com/forrester-aidan
+            </Typography>
          </ListItemText>
       </ListItem>
     </List>

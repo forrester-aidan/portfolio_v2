@@ -10,9 +10,18 @@ const Contact = () => {
       <NavBar/>
       <Box>
          <Typography variant='h2' sx={{
-        paddingTop: 2
+        paddingTop: 2, 
+        fontFamily: 'League Spartan',
+        fontWeight: 700
       }}>
             Contact
+         </Typography>
+         <Typography sx={{
+        paddingTop: 2, 
+        fontFamily: 'Titillium Web',
+        fontWeight: 600
+      }}>
+            The first email is my main source of communication that I use. Feel free to reach out whenever!
          </Typography>
          <Box sx={{
             display: 'flex',

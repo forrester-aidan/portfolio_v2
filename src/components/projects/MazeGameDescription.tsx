@@ -5,12 +5,14 @@ const MazeGameDescription = () => {
   return (
     <Box>
       <Box sx={{marginLeft: 3, alignItems: 'top'}}>
-         <Typography variant='h3' sx={{textAlign: 'left', alignItems: 'top'}}>
+         <Typography variant='h3' sx={{textAlign: 'left', alignItems: 'top', fontFamily: 'League Spartan',
+        fontWeight: 500}}>
             Maze Game vs. AI
          </Typography>
       </Box>
       <Box sx={{margin: 3}}>
-         <Typography variant='body1' sx={{textAlign: 'left', alignItems: 'top'}}>
+         <Typography variant='body1' sx={{textAlign: 'left', alignItems: 'top', fontFamily: 'Titillium Web',
+        fontWeight: 300}}>
             This was one of my favorite projects that I've built in Python, and actually spent a long time playing the game after
             I created it. Using the tkinter library to create the canvas, I was able to draw a 2d array of squares to account for 
             the grid itself, using 1 to denote a tile that can be traversed and 0 to denote a barrier. The simple part of this program

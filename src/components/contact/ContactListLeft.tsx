@@ -1,4 +1,4 @@
-import { List, ListItem, ListItemText } from '@mui/material'
+import { List, ListItem, ListItemText, Typography } from '@mui/material'
 import React from 'react'
 
 const ContactListLeft = () => {
@@ -6,22 +6,30 @@ const ContactListLeft = () => {
    <List>
       <ListItem>
          <ListItemText>
-            Emails:
+            <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 600}}>
+               Emails:
+            </Typography>
          </ListItemText>
       </ListItem>
       <ListItem>
          <ListItemText>
-            Phone Number:
+         <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 600}}>
+               Phone Number:
+            </Typography>
          </ListItemText>
       </ListItem>
       <ListItem>
          <ListItemText>
-            LinkedIn:
+            <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 600}}>
+               LinkedIn
+            </Typography>
          </ListItemText>
       </ListItem>
       <ListItem>
          <ListItemText>
-            GitHub:
+            <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 600}}>
+               GitHub
+            </Typography>
          </ListItemText>
       </ListItem>
    </List>

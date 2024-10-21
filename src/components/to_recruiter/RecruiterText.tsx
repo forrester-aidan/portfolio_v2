@@ -11,6 +11,8 @@ const RecruiterText = () => {
         marginRight: 10, 
         textAlign: 'center',
         padding: 3,
+        fontFamily: 'Titillium Web',
+        fontWeight: 200
       }}>
       Please accept this portfolio as an expression of my interest in an internship position at your company. 
       With a track record of initiative and dependability, I have devised strategic attributes which I believe will prove valuable.
@@ -22,6 +24,8 @@ const RecruiterText = () => {
         marginRight: 10, 
         textAlign: 'center',
         padding: 3,
+        fontFamily: 'Titillium Web',
+        fontWeight: 200
       }}>
 
       Throughout the course of my career, I have perfected my understanding of coding languages and interpersonal abilities. 
@@ -36,6 +40,8 @@ const RecruiterText = () => {
         marginRight: 10, 
         textAlign: 'center',
         padding: 3,
+        fontFamily: 'Titillium Web',
+        fontWeight: 200
       }}>
       Sincerely,
       </Typography>
@@ -43,6 +49,8 @@ const RecruiterText = () => {
         marginLeft: 10, 
         marginRight: 10, 
         textAlign: 'center',
+        fontFamily: 'Titillium Web',
+        fontWeight: 200
       }}></Typography>
         Aidan Forrester
       </Typography>

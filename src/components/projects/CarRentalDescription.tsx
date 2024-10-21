@@ -5,12 +5,14 @@ const CarRentalDescription = () => {
   return (
    <Box>
       <Box sx={{marginLeft: 3}}>
-         <Typography variant='h3' sx={{textAlign: 'left', alignItems: 'top'}}>
+         <Typography variant='h3' sx={{textAlign: 'left', alignItems: 'top', fontFamily: 'League Spartan',
+        fontWeight: 500}}>
             Car Rental System
          </Typography>
       </Box>
       <Box sx={{margin: 3, height: '100%'}}>
-         <Typography variant='body1' sx={{textAlign: 'left', alignItems: 'top'}}>
+         <Typography variant='body1' sx={{textAlign: 'left', alignItems: 'top', fontFamily: 'Titillium Web',
+        fontWeight: 300}}>
             In a group of two other students, we were able to create a mock car rental system for a fake company with Next.js that allows users 
             to make reservations at multiple different locations. Users were able to create an account (which was encrypted 
             and stored in a database), select cars from over 10,000 different options at 3 separate locations, and make reservations
