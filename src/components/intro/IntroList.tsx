@@ -36,7 +36,7 @@ const IntroList = () => {
          </ListItem>
          <ListItem sx={{padding: '4px 0'}}>
                <ListItemText>
-                  <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 700}}>
+                  <Typography className='text-red-300' sx={{fontSize: 20, fontFamily: 'Titillium Web', fontWeight: 700}}>
                      BEST LANGUAGES: Python, C++, Java, JavaScript/TypeScript
                   </Typography>
                </ListItemText>

@@ -1,6 +1,7 @@
 import React from 'react'
-import NavBar from './nav/NavBar'
+import NavBar from '../nav/NavBar'
 import { Typography } from '@mui/material'
+import CertificationsContainer from './CertificationsContainer'
 
 const Certifications = () => {
   return (
@@ -18,15 +19,10 @@ const Certifications = () => {
         fontFamily: 'Titillium Web',
         fontWeight: 300
       }}>
-        This page includes a listing of the projects I have completed over the years. 
+        This page includes a listing of the certifications I have completed since high school. 
       </Typography>
-      <Typography variant='body1' sx={{
-        padding: 1,
-        fontFamily: 'Titillium Web',
-        fontWeight: 300
-      }}>
-        Hover over each node to view the languages used in each project.
-      </Typography>
+
+      <CertificationsContainer/>
     </div>
   )
 }

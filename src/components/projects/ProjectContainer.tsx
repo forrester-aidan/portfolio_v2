@@ -28,25 +28,25 @@ const boxStyles = {
  const ProjectContainer = () => {
   return (
       <Grid container spacing={8} columns={1} sx={{margin: 10}}>
-        <Grid display="flex" size={1} sx={styles}>
+        <Grid className='transition duration-150 hover:translate-x-1 hover:translate-y-1 hover:scale-105' display="flex" size={1} sx={styles}>
             <SwampImageCard/>
             <Box sx={{flex: 4}}>
               <SwampSchedulerDescription />
             </Box>
         </Grid>
-        <Grid display="flex" size={1} sx={styles}>
+        <Grid className='transition duration-150 hover:translate-x-1 hover:translate-y-1 hover:scale-105' display="flex" size={1} sx={styles}>
             <CarImageCard/>
             <Box sx={{flex: 3}}>
               <CarRentalDescription />
             </Box>
         </Grid>
-        <Grid display="flex" size={1} sx={styles}>
+        <Grid className='transition duration-150 hover:translate-x-1 hover:translate-y-1 hover:scale-105' display="flex" size={1} sx={styles}>
             <MazeImageCard/>
             <Box sx={{flex: 4}}>
               <MazeGameDescription />
             </Box>
         </Grid>
-        <Grid display="flex" justifyContent="center" alignItems="center" size={1} sx={styles}>
+        <Grid className='transition duration-150 hover:translate-x-1 hover:translate-y-1 hover:scale-105' display="flex" justifyContent="center" alignItems="center" size={1} sx={styles}>
             <VpnImageCard/>
             <Box sx={{flex: 4}}>
               <VpnSystemDescription/>

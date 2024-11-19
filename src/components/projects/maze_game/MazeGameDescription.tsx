@@ -16,7 +16,7 @@ const MazeGameDescription = () => {
           </Typography>
         </Box>
          <Box sx={{flex: 1}}>
-          <Button onClick={mazeGitHub} sx={{
+          <Button onClick={mazeGitHub} className='transition duration-150 hover:text-slate-400' sx={{
             fontFamily: 'League Spartan', 
             fontWeight: 700, 
             fontSize: 18, 

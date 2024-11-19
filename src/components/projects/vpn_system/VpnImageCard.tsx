@@ -17,7 +17,7 @@ const VpnImageCard = () => {
          <Card sx={{ width: '100%', height: '100%', position: 'absolute', borderRadius: 10}}> // image
             <CardMedia
             component='img'
-            image='car_rental_vid.webp'
+            image='vpn_system_vid.gif'
             sx={{
                width: '100%',
                height: '100%',

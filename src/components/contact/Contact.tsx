@@ -27,16 +27,16 @@ const Contact = () => {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            gap: 70,
             margin: 5,
-            padding: 15,
+            paddingTop: 15,
+            paddingBottom: 15,
             border: '1px solid white',
             borderRadius: 10,
          }}>
             <Box>
                <ContactListLeft />
             </Box>
-            <Box>
+            <Box className='pl-32'>
                <ContactListRight/>
             </Box>
          </Box>

@@ -6,28 +6,28 @@ const ContactListLeft = () => {
    <List>
       <ListItem>
          <ListItemText>
-            <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 600}}>
+            <Typography sx={{fontSize: 35, fontFamily: 'Titillium Web', fontWeight: 600}}>
                Emails:
             </Typography>
          </ListItemText>
       </ListItem>
       <ListItem>
          <ListItemText>
-         <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 600}}>
+         <Typography sx={{fontSize: 35, fontFamily: 'Titillium Web', fontWeight: 600}}>
                Phone Number:
             </Typography>
          </ListItemText>
       </ListItem>
       <ListItem>
          <ListItemText>
-            <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 600}}>
+            <Typography sx={{fontSize: 35, fontFamily: 'Titillium Web', fontWeight: 600}}>
                LinkedIn
             </Typography>
          </ListItemText>
       </ListItem>
       <ListItem>
          <ListItemText>
-            <Typography sx={{fontFamily: 'Titillium Web', fontWeight: 600}}>
+            <Typography sx={{fontSize: 35, fontFamily: 'Titillium Web', fontWeight: 600}}>
                GitHub
             </Typography>
          </ListItemText>

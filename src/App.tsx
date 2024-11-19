@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
-import Certifications from './components/Certifications';
+import Certifications from './components/certifications/Certifications';
 
 function App() {
   return (

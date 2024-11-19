@@ -11,7 +11,8 @@ const Projects = () => {
       <Typography variant='h2' sx={{
         paddingTop: 2,
         fontFamily: 'League Spartan',
-        fontWeight: 700
+        fontWeight: 700, 
+        cursor: "default",
       }}>
         Projects
       </Typography>
@@ -27,7 +28,7 @@ const Projects = () => {
         fontFamily: 'Titillium Web',
         fontWeight: 300
       }}>
-        Hover over each node to view the languages used in each project.
+        Hover over each image to view the languages used in each project.
       </Typography>
 
       <ProjectContainer />

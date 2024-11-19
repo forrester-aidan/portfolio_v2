@@ -34,12 +34,11 @@ const NavBar = () => {
   return (
     <div>
       <AppBar position="static" style={{backgroundColor: '#5D737E'}}>
-      <Toolbar style={{justifyContent: 'right'}}>
-        <Button color="inherit" sx={{marginLeft: 2, marginRight: 2, fontFamily: 'Titillium Web', fontWeight: 700}} onClick={homeClick}>Home</Button>
-        <Button color="inherit" sx={{marginLeft: 2, marginRight: 2, fontFamily: 'Titillium Web', fontWeight: 700}} onClick={projectClick}>Projects</Button>
-        <Button color="inherit" sx={{marginLeft: 2, marginRight: 2, fontFamily: 'Titillium Web', fontWeight: 700}} onClick={certificationsClick}>Certifications</Button>
-        <Button color="inherit" sx={{marginLeft: 2, marginRight: 2, fontFamily: 'Titillium Web', fontWeight: 700}} onClick={contactClick}>Contact</Button>
-        <Button color="inherit" sx={{marginLeft: 2, marginRight: 2, fontFamily: 'Titillium Web', fontWeight: 700, background: 'linear-gradient(135deg, #5f615f 5%, #02111B 95%)',}} onClick={linkedInClick}>LinkedIn</Button>
+      <Toolbar className='gap-12 justify-end '>
+        <Button color="inherit" className='ml-2 mr-2 transition duration-150 hover:bg-slate-600' sx={{fontFamily: 'Titillium Web', fontWeight: 700}} onClick={homeClick}>Home</Button>
+        <Button color="inherit" className='ml-2 mr-2 transition duration-150 hover:bg-slate-600' sx={{fontFamily: 'Titillium Web', fontWeight: 700}} onClick={projectClick}>Projects</Button>
+        <Button color="inherit" className='ml-2 mr-2 transition duration-150 hover:bg-slate-600' sx={{fontFamily: 'Titillium Web', fontWeight: 700}} onClick={contactClick}>Contact</Button>
+        <Button color="inherit" className='ml-2 mr-2 transition duration-150 hover:bg-slate-600' sx={{fontFamily: 'Titillium Web', fontWeight: 700, background: 'linear-gradient(135deg, #5f615f 5%, #02111B 95%)',}} onClick={linkedInClick}>LinkedIn</Button>
       </Toolbar>
     </AppBar>
     </div>
