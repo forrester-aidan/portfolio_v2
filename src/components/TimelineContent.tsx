@@ -24,6 +24,8 @@ const TimelineContent = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
           date="2010 - 2011"
         >
           <h3 className="vertical-timeline-element-title">Art Director</h3>
@@ -37,6 +39,8 @@ const TimelineContent = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
           date="2008 - 2010"
         >
           <h3 className="vertical-timeline-element-title">Web Designer</h3>
@@ -47,6 +51,8 @@ const TimelineContent = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
           date="2006 - 2008"
         >
           <h3 className="vertical-timeline-element-title">Web Designer</h3>
@@ -57,6 +63,8 @@ const TimelineContent = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
+          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
           date="April 2013"
         >
           <h3 className="vertical-timeline-element-title">
@@ -67,6 +75,8 @@ const TimelineContent = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
+          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
           date="November 2012"
         >
           <h3 className="vertical-timeline-element-title">
@@ -77,6 +87,8 @@ const TimelineContent = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
+          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
           date="2002 - 2006"
         >
           <h3 className="vertical-timeline-element-title">
