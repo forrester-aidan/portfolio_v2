@@ -38,7 +38,7 @@ const RetailImageCard = () => {
           // image
           <CardMedia
             component="img"
-            image="swamp_scheduler_vid.gif"
+            image="retail.png"
             sx={{
               width: '100%',
               height: '100%',
@@ -75,7 +75,7 @@ const RetailImageCard = () => {
                 component="div"
                 sx={{ fontFamily: 'League Spartan', fontWeight: 500 }}
               >
-                TypeScript, React.js, Node.js, SQL
+                TypeScript, React.js, Node.js
               </Typography>
             </Box>
           </CardContent>
