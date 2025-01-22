@@ -18,6 +18,21 @@ const TimelineContent = () => {
           contentArrowStyle={{ borderRight: '7px solid rgb(55, 65, 81)' }}
         >
           <h3 className="vertical-timeline-element-title">
+            Frontend Developer Intern
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Remote</h4>
+          <p>HTML/CSS, JavaScript, React</p>
+          <p className="text-red-300">January 2025 - Present</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: 'rgb(55, 65, 81)',
+            color: '#fff',
+          }}
+          contentArrowStyle={{ borderRight: '7px solid rgb(55, 65, 81)' }}
+        >
+          <h3 className="vertical-timeline-element-title">
             Research Assistant
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
