@@ -72,7 +72,7 @@ const NavBar = () => {
             sx={{
               fontFamily: 'Titillium Web',
               fontWeight: 700,
-              background: 'linear-gradient(135deg, #5f615f 5%, #02111B 95%)',
+              background: 'linear-gradient(135deg, #0072b1 5%, #000000 95%)',
             }}
             onClick={linkedInClick}
           >

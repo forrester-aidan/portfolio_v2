@@ -8,8 +8,13 @@ import {
 } from '@mui/material';
 import React, { useState } from 'react';
 
-const RetailImageCard = () => {
-  const [retailHovered, setRetailHovered] = useState(false);
+interface Props {
+  imageUrl: string;
+  languages: string;
+}
+
+const ComponentName: React.FC<Props> = ({ imageUrl, languages }) => {
+  const [swampHovered, setSwampHovered] = useState(false);
 
   return (
     <Box
@@ -22,10 +27,10 @@ const RetailImageCard = () => {
         overflow: 'hidden',
         flex: 3,
       }}
-      onMouseEnter={() => setRetailHovered(true)}
-      onMouseLeave={() => setRetailHovered(false)}
+      onMouseEnter={() => setSwampHovered(true)}
+      onMouseLeave={() => setSwampHovered(false)}
     >
-      <Fade in={!retailHovered} timeout={300}>
+      <Fade in={!swampHovered} timeout={300}>
         <Card
           sx={{
             width: '100%',
@@ -36,12 +41,12 @@ const RetailImageCard = () => {
         >
           {' '}
           <CardMedia
-            component="img" // image
-            image="retail.png"
+            component="img"
+            image={imageUrl}
             sx={{
               width: '100%',
               height: '100%',
-              objectFit: 'cover', // Ensures the image covers the box without distortion
+              objectFit: 'fill', // Ensures the image covers the box without distortion
               position: 'absolute', // Ensures it fills the box
               top: 0,
               left: 0,
@@ -49,7 +54,7 @@ const RetailImageCard = () => {
           />
         </Card>
       </Fade>
-      <Fade in={retailHovered}>
+      <Fade in={swampHovered}>
         <Card
           sx={{
             // coding languages
@@ -60,23 +65,23 @@ const RetailImageCard = () => {
             color: 'white',
           }}
         >
-          <CardContent sx={{ paddingTop: '20%' }}>
-            <Box
-              sx={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                height: '100%', // Ensures full height is used
-              }}
+          <CardContent
+            sx={{
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center', // horizontal center
+              justifyContent: 'center', // vertical center
+              textAlign: 'center',
+              height: '100%',
+            }}
+          >
+            <Typography
+              variant="h5"
+              component="div"
+              sx={{ fontFamily: 'League Spartan', fontWeight: 500 }}
             >
-              <Typography
-                variant="h5"
-                component="div"
-                sx={{ fontFamily: 'League Spartan', fontWeight: 500 }}
-              >
-                TypeScript, React.js, Node.js
-              </Typography>
-            </Box>
+              {languages}
+            </Typography>
           </CardContent>
         </Card>
       </Fade>
@@ -84,4 +89,4 @@ const RetailImageCard = () => {
   );
 };
 
-export default RetailImageCard;
+export default ComponentName;
