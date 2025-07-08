@@ -11,6 +11,13 @@ const TimelineContent = () => {
     <div className="flex items-center justify-center pt-10">
       <VerticalTimeline layout="2-columns">
         <MyTimelineElement
+          title="Product Intern"
+          location="Cleveland, OH / Remote"
+          languages="PostgreSQL, Vue.js, Python, Jira"
+          date="June 2025 - August 2025"
+        ></MyTimelineElement>
+
+        <MyTimelineElement
           title="Full Stack Developer Intern"
           location="Remote"
           languages="Flutter/Dart, Firebase"

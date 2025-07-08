@@ -40,6 +40,7 @@ const ProjectMap: React.FC<Props> = () => {
         >
           <ProjectImageCard
             imageUrl={project.image}
+            imageObjectFit={project.imageObjectFit}
             languages={project.languages}
           />
           <Box sx={{ flex: 4 }}>

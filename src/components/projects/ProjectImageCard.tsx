@@ -10,10 +10,15 @@ import React, { useState } from 'react';
 
 interface Props {
   imageUrl: string;
+  imageObjectFit: string;
   languages: string;
 }
 
-const ComponentName: React.FC<Props> = ({ imageUrl, languages }) => {
+const ComponentName: React.FC<Props> = ({
+  imageUrl,
+  imageObjectFit,
+  languages,
+}) => {
   const [swampHovered, setSwampHovered] = useState(false);
 
   return (
@@ -46,7 +51,7 @@ const ComponentName: React.FC<Props> = ({ imageUrl, languages }) => {
             sx={{
               width: '100%',
               height: '100%',
-              objectFit: 'fill', // Ensures the image covers the box without distortion
+              objectFit: imageObjectFit, // Ensures the image covers the box without distortion
               position: 'absolute', // Ensures it fills the box
               top: 0,
               left: 0,
