@@ -24,10 +24,9 @@ const ComponentName: React.FC<Props> = ({
   return (
     <Box
       sx={{
-        width: '100%',
+        display: 'inline-block',
         border: '1px solid red',
-        borderRadius: 10,
-        height: '100%',
+        borderRadius: 2,
         position: 'relative',
         overflow: 'hidden',
         flex: 3,
@@ -39,9 +38,9 @@ const ComponentName: React.FC<Props> = ({
         <Card
           sx={{
             width: '100%',
-            height: '100%',
-            position: 'absolute',
-            borderRadius: 10,
+            height: '100%', 
+            borderRadius: 2,
+            overflow: 'hidden'
           }}
         >
           {' '}
@@ -49,12 +48,12 @@ const ComponentName: React.FC<Props> = ({
             component="img"
             image={imageUrl}
             sx={{
-              width: '100%',
-              height: '100%',
-              objectFit: imageObjectFit, // Ensures the image covers the box without distortion
-              position: 'absolute', // Ensures it fills the box
-              top: 0,
-              left: 0,
+              display: 'block',      // prevents small gaps
+              width: '100%',         // natural width
+              height: '100%',        // natural height
+              objectFit: imageObjectFit,     // use the original image dimensions
+              objectPosition: 'center',
+              borderRadius: 'inherit'
             }}
           />
         </Card>
@@ -63,9 +62,9 @@ const ComponentName: React.FC<Props> = ({
         <Card
           sx={{
             // coding languages
-            width: '100%',
-            height: '100%',
-            borderRadius: 10,
+            position: 'absolute',
+            inset: 0, // cover same area as image
+            borderRadius: 2,
             backgroundColor: '#2F2F2E',
             color: 'white',
           }}
@@ -74,8 +73,8 @@ const ComponentName: React.FC<Props> = ({
             sx={{
               display: 'flex',
               flexDirection: 'column',
-              alignItems: 'center', // horizontal center
-              justifyContent: 'center', // vertical center
+              alignItems: 'center',
+              justifyContent: 'center',
               textAlign: 'center',
               height: '100%',
             }}
