@@ -7,15 +7,15 @@ const IntroDescription = () => {
       <ListItem sx={{ padding: '4px 0' }}>
         <ListItemText>
           <Typography sx={{ fontFamily: 'Titillium Web', fontWeight: 300 }}>
-            Hi there! My name is Aidan Forrester and I am an incoming
-            fourth-year at the University of Florida, currently pursuing a
-            Bachelor's of Science in Computer Science. Prior to that, I attended
+            Hi there! My name is Aidan Forrester and I am proud to announce
+            that I've just graduated Cum Laude from the University of Florida, completing 
+            a Bachelor's of Science in Computer Science. Prior to that, I attended
             the Academy for Information Technology, where I completed my high
             school diploma and was issued a vocational I.T. certificate from the
             state of New Jersey. Using my knowledge of different programming
-            languages , I’ve created a multitude of projects ranging from a
-            fully-fledged game of Minesweeper to an advanced online car rental
-            service.
+            languages, I’ve created a multitude of projects ranging from a
+            mobile ticket-sharing social platform to an immersive, VR educational experience
+            in molecular biology. 
           </Typography>
         </ListItemText>
       </ListItem>
@@ -37,6 +37,17 @@ const IntroDescription = () => {
             experience has been the greatest stepping stone to my career,
             allowing me to learn and grow at a company that I've enjoyed to the
             fullest!
+          </Typography>
+          
+        </ListItemText>
+      </ListItem>
+      <ListItem sx={{ padding: '4px 0' }}>
+        <ListItemText>
+          <Typography sx={{ fontFamily: 'Titillium Web', fontWeight: 300 }}>
+            I'm thrilled to announce that I've accepted an offer to be a part of the 
+            Capital One Technical Development Program! I can't wait to begin my journey
+            as a new grad software engineer at a bigger company, and look forward to furthering
+            my skills in computer/data science! 
           </Typography>
         </ListItemText>
       </ListItem>

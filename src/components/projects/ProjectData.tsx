@@ -1,5 +1,15 @@
 const projects = [
   {
+    title: 'Cell City VR Experience',
+    description:
+      "DESCRIPTION IN PROGRESS",
+    image: 'no-preview-available.png',
+    imageObjectFit: 'contain',
+    gitHubLink: 'https://github.com/AshishNarne/Cell-City',
+    languages: 'Unity, C#',
+    status: 'done',
+  },
+  {
     title: 'Ticket-Sharing Social Platform',
     description:
       "As an intern at NEXJE Technologies, I was tasked with building a mobile app that allows users to create their very own business cards or event tickets that can then be shared among their friends. As a part of the project, I needed to create a fully-functioning authentication and social system, granting users the ability to send, accept and reject friend requests as needed. This part of the project definitely took the longest amount of time, as dealing with all the small details (such as removing requests if a friend gets rejected or automatically creating a friend on another person's account if accepted) was extremely time-consuming. Not only that, I was exposed to technologies I had never even heard of, let alone tried coding with. The learning curve of mobile development in these languages was not that steep, but it was a new experience that was not necessarily ready for. Still, I'm grateful to this company and everything that they've taught me, as I really enjoyed mobile developing in the end. ",

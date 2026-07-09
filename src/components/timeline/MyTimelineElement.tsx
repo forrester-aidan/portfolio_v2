@@ -6,6 +6,7 @@ type MyTimelineElementProps = {
   location: string;
   languages: string;
   date: string;
+  children?: React.ReactNode; 
 };
 
 const MyTimelineElement: React.FC<MyTimelineElementProps> = ({

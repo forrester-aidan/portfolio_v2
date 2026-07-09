@@ -18,9 +18,7 @@ const RecruiterText = () => {
             fontWeight: 200,
           }}
         >
-          Please accept this portfolio as an expression of my interest in an new
-          grad position at your company. This portfolio serves as a means for
-          you to further explore the projects I have created in greater detail,
+          This portfolio serves as a means for you to further explore the projects I have created in greater detail,
           as well as view some of my other achievements not present on my
           resume. Here's a snapshot of what I have to offer:
         </Typography>
@@ -35,11 +33,11 @@ const RecruiterText = () => {
             fontWeight: 200,
           }}
         >
-          <strong className="text-red-300">
+          {/* <strong className="text-red-300">
             Currently, I am a fourth-year Computer Science student seeking a
             Software Engineering/Product Management New Grad role for the Summer
             of 2026.
-          </strong>{' '}
+          </strong>{' '} */}
           Throughout the course of my career, I have perfected my understanding
           of coding languages and used this knowledge to build projects of my
           own, as well as participate in group settings to complete large-scale

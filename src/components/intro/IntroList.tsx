@@ -16,7 +16,7 @@ const IntroList = () => {
         <ListItem sx={{ padding: '4px 0' }}>
           <ListItemText>
             <Typography sx={{ fontFamily: 'Titillium Web', fontWeight: 700 }}>
-              YEAR: Senior
+              YEAR: Graduated
             </Typography>
           </ListItemText>
         </ListItem>
@@ -30,7 +30,7 @@ const IntroList = () => {
         <ListItem sx={{ padding: '4px 0' }}>
           <ListItemText>
             <Typography sx={{ fontFamily: 'Titillium Web', fontWeight: 700 }}>
-              GPA: 3.39
+              GPA: 3.45
             </Typography>
           </ListItemText>
         </ListItem>
@@ -44,7 +44,7 @@ const IntroList = () => {
                 fontWeight: 700,
               }}
             >
-              BEST LANGUAGES: JavaScript/TypeScript/React, Java, Python
+              BEST LANGUAGES: JavaScript/TypeScript/React, SQL, Python
             </Typography>
           </ListItemText>
         </ListItem>

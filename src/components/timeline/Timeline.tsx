@@ -1,7 +1,7 @@
 import React from 'react'
-import NavBar from './nav/NavBar'
+import NavBar from "../nav/NavBar"
 import { Typography } from '@mui/material'
-import TimelineContent from './TimelineContent'
+import TimelineContent from "./TimelineContent"
 
 const Timeline = () => {
   return (
